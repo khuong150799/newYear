@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-image: url(https://thiepmung.com/images/theme/102806567a9f0da2b3f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+#countdate {
+    margin-top: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.text {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px #333;
+}
+.number {
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #333;
+
+}
+.header {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 3px #333;
+
+}
+.time {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
